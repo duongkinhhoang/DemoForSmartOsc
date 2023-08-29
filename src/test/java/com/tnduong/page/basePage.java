@@ -293,6 +293,8 @@ public class basePage extends PageObject{
                 }
             }
         }
+
+
         public void switchToBrowserTabByIndex(int index) {
             String siteHandle = ((String) getAllBrowserTab().toArray()[index]);
             getDriver().switchTo().window(siteHandle);

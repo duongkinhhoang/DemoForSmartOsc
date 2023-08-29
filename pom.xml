@@ -139,6 +139,13 @@
                         <version>${serenity.version}</version>
                     </dependency>
                 </dependencies>
+
+                <dependency>
+                    <groupId>io.github.bonigarcia</groupId>
+                    <artifactId>webdrivermanager</artifactId>
+                    <version>5.2.0</version>
+                </dependency>
+
                 <executions>
                     <execution>
                         <id>serenity-reports</id>

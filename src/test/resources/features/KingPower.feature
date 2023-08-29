@@ -2,22 +2,11 @@ Feature: TestWeb kingpower
 
   @run
   Scenario: Verify result
-    Given Go to Anhtester web
-    When click close ads
+    Given open home page
+    When user click close ads
+    And  user input keyword "E.g: Shirt" into search box
+    And  user click on button search
+    And  user choose first product
+    Then verify product information detail
 
 
-
-
-#    And Select input form
-#    Then Select simple form
-#    And Close Popup
-#    And Enter randon as "11aa28082022"
-#    Then Click show message
-#    And Verify message "11aa28082022"
-#    And Enter number a as "11"
-#    And Enter number b as "22"
-#    Then Click get total
-
-
-
-#  And Verify get total
