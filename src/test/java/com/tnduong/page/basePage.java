@@ -1,10 +1,8 @@
-package com.thtung.page;
+package com.tnduong.page;
 
 import io.appium.java_client.functions.ExpectedCondition;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.pages.PageObject;
-import org.apache.commons.io.FileUtils;
-import org.asciidoctor.log.Logging;
 import org.assertj.core.util.Strings;
 import org.joda.time.DateTime;
 import org.openqa.selenium.By;
@@ -16,11 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
-import java.io.File;
-import java.io.IOException;
+
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;

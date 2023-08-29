@@ -1,4 +1,4 @@
-package com.thtung.testRunner;
+package com.tnduong.testRunner;
 
         import io.cucumber.junit.CucumberOptions;
         import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -7,7 +7,7 @@ package com.thtung.testRunner;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = "src/test/resources/features/Demo.feature",
-        glue = {"com.thtung"})
+        features = "src/test/resources/features",
+        glue = {"com.tnduong"})
 
 public class  demoTestSuite {}

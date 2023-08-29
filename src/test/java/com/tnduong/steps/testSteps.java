@@ -1,12 +1,11 @@
-package com.thtung.steps;
+package com.tnduong.steps;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
-import com.thtung.page.pageObject;
+import com.tnduong.page.pageObject;
 
 public class testSteps {
   @Steps pageObject pageObject;
